@@ -2,11 +2,11 @@
 *{
     margin: 0;
     padding: 0;
- 
+    text-decoration: none;
 }
 body{
-       box-sizing: border-box;
-       font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 nav{
     display: flex;
@@ -14,9 +14,13 @@ nav{
     align-items: center;
     height: 58px;
 }
+.nav-orta{
+    margin-top: 20px;
+}
 .nav-orta a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 .nav-orta ul{
     list-style: none;
@@ -31,21 +35,26 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
+}
+.orqa-rang h1{
+    font-size: 30px;
 }
 .nav-ong a{
     text-decoration: none;
     color: #fff;
+    font-size: 20px;
 }
 .nav-ong .button{
     text-decoration: none;
     margin: 0 1.2rem;
-    padding: 6px 15px;
+    padding: 8px 20px;
     background-color: rgb(66, 113, 240);
     color: #fff;
 }
 .nav-chap{
-    margin-right: 235px;
     color: #fff;
+    margin-top: 20px;
 }
 .container{
     margin: 0 auto;
@@ -80,24 +89,32 @@ header{
     flex-direction: column;
     color: #fff;
 }
-
-.div1 .button{
+.div3  a{
     text-decoration: none;
-    flex-direction: column;
-align-items: center;
-padding: 15px 36px;
-    border-radius: 20px;
-    padding: 6px 15px;
-    background-color: rgb(66, 113, 240);
+    padding: 15px 36px;
+    border-radius: 30px;
+    background-color: #23a6f0;
     color: #fff;
-    position: relative;
-   left: 0px;
-top: 0px;
-    width: 185px;
-height: 52px;
-    margin-top: 20px;
+    margin-top: 25px;
     display: inline-block;
-}  
+    margin-left: 10px;
+} 
+.div3 .orqarang{
+    background: none;
+    border: 2px solid rgb(206, 206, 206);
+} 
+.div1 > .div2{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.div1 > .div2 p{
+font-size: 18px;
+text-align: center;
+font-weight: 500;
+
+}
 .div2 h1{ 
     font-style: normal;
 font-weight: 800;
@@ -119,16 +136,10 @@ height: 160px;
 left: 2px;
 top: 40px;
 }
-
-.div2 p{
-margin-top: 40px;
-position: relative;
-}
 .katta{
 width: 100%;
 background-color: #fafafa; 
 }
-
 .katta1{
     display: flex;
     justify-content: space-between;
@@ -187,3 +198,11 @@ align-items:center;
 .nuqta1{
    
 }
+/* bobur code////////////////////////////////////////// */
+.iconUser{
+    width: 48px;
+    height: 39px;
+    color: #23a6f0;
+    display: inline-block;
+}
+/* bobur code////////////////////////////////////////// */
